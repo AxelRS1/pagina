@@ -8,6 +8,7 @@
 }
 :root {
  --notification-sfx: /media/beep.mp3;
+ --advanced-layout: true;
 }
 body {
   background-color: #000;
@@ -263,3 +264,4 @@ blockquote {
   width: 2px;
   background-color: #0F0;
 }
+
