@@ -8,7 +8,6 @@
 }
 :root {
  --notification-sfx: /media/beep.mp3;
- --advanced-layout: true;
 }
 body {
   background-color: #000;
@@ -54,6 +53,10 @@ body:after {
   top: 5px;
   font-weight: bolder;
   color: #0F0;
+}
+.sent {
+}
+.recieved {
 }
 .senderInfo {
   color: #0F0;
@@ -169,6 +172,11 @@ blockquote {
   border-color: inherit;
   filter: drop-shadow(0 0 2px #0F0);
 }
+.mod, .owner, .tester {
+  width: 0;
+  font-size: 8pt;
+  text-shadow: none;
+}
 .mod::before {
   content: "[MODERATOR]";
   display: inline-block;
@@ -194,6 +202,19 @@ blockquote {
   position: absolute;
   top: 7px;
   right: 7px;
+}
+#settings {
+  background-image: none;
+}
+#settings:after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  content: "#";
+  color: #0F0;
+}
+#settings:hover:after {
+  font-weight: bold;
 }
 #replyBanner {
   color: #0F0;
@@ -250,11 +271,18 @@ blockquote {
 }
 #save::before {
   content: "[";
-  margin-right: 10px;
+    margin-right: 10px;
 }
 #save::after {
   content: "]";
   margin-left: 10px;
+}
+#is_typing {
+  background-color: transparent;
+  border: none;
+  border-radius: 1px;
+  width: unset;
+  height: unset;
 }
 #is_typing:before {
   content: "Someone's typing";
@@ -262,6 +290,6 @@ blockquote {
 #is_typing > span {
   height: 2px;
   width: 2px;
+  border-radius: 0;
   background-color: #0F0;
 }
-
