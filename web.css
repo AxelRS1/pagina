@@ -1,0 +1,104 @@
+body {
+  background-image: url(https://i.imgur.com/9irnenJ.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0; 
+  font-family: "Anonymous Pro";
+  font-weight: 100;
+}
+
+.img-lib {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+}
+
+.img1 {
+  top: 50px;
+  left: 85px;
+  width: 150px;
+}
+
+.img2 {
+  top: 50px;
+  left: 200px;
+  width: 120px;
+}
+
+.img3 {
+  top: 75px;
+  left: 50px;
+  width: 180px;
+}
+
+h1 {
+  font-family: "Bitcount";
+  font-weight: 400;
+}
+
+.main {
+  margin: 125px;
+}
+
+#p1 {
+  height: 230px;
+  padding: 20px;
+  margin: 0px;
+  display: flex;
+  align-items: flex-start;
+  flex: 0 0 75%;
+}
+
+#p2 {
+  position: relative;
+  height: 230px;
+  padding: 20px;
+  margin: 0px;
+  flex: 0 0 75%;
+}
+
+#p3 {
+  padding: 20px;
+  margin: 0px;    
+  height: 230px;
+  flex: 0 0 25%;
+}
+
+#p4 {
+  background-color: #f5f4e9f1;
+  padding: 20px;
+  margin: 0px;
+  height: 230px;
+  flex: 0 0 25%;
+}
+
+#titulo1, #p1, #p2, #p3, #p4 {
+  box-sizing: border-box;
+  background-color: #f5f4e9f1;
+  border-color: #E34A2B;
+  border-width: 1%; 
+  border-bottom-style: dashed;
+  border-top-style: dashed;
+  border-right-style: dashed;
+}
+
+#titulo1 {
+  margin: 0 0 5px 0;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  color: #ffd380;
+}
+
+.audio-title {
+  margin-bottom: 20px;
+}
+
+audio {
+  width: 100%;
+  display: block;
+}
+
+.row {
+  display: flex;
+}

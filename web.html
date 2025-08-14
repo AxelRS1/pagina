@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TICACA</title>
+  <link rel="stylesheet" href="web.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Bitcount:wght@100..900&display=swap" rel="stylesheet">
+
+  <style>
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 10px 0;
+    }
+  </style>
+
+  <!-- Script de Chattable -->
+  <script src="https://iframe.chat/scripts/main.min.js"></script>
+</head>
+
+<body>
+  <div class="main">
+    <h1 id="titulo1">
+      <img src="https://files.catbox.moe/670gy5.gif">HALLO<img src="https://files.catbox.moe/670gy5.gif">
+    </h1>
+
+    <div class="row" id="fila1">
+      <div class="column" id="p1"> INTRODUCCIÓN </div>
+      <div class="column" id="p3"> LINKS </div>
+    </div>
+
+    <div class="row" id="fila2">
+      <div class="column" id="p2">
+        <h2>COMENTARIOS</h2>
+      </div>
+
+      <div class="column" id="p4">
+        <div class="audio-title">REPRODUCTOR</div>
+        <audio controls autoplay loop>
+          <source src="Violet sky.mp3" type="audio/mpeg">
+        </audio>
+
+        <!-- Aquí irá el chat -->
+        <div id="chattable" style="width:100%; height:500px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Inicialización del chat -->
+  <script>
+    chattable.initialize({
+      room: "MiSala", // Cambia por el nombre de tu sala
+      stylesheet: "file:///C:/Docu/web/chattable.css", // Estilo verde retro
+      width: "100%",
+      height: "500px"
+    });
+  </script>
+</body>
+</html>
