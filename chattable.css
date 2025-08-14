@@ -63,7 +63,7 @@ body:after {
   text-shadow: 0 0 3px #0F0;
 }
 #background {
- background: radial-gradient(#030, #000);
+ background: radial-gradient(white, #000);
  scrollbar-color: transparent transparent;
  scrollbar-width: none;
 }
@@ -290,6 +290,6 @@ blockquote {
 #is_typing > span {
   height: 2px;
   width: 2px;
-  border-radius: 0;
+  borer-radius: 0;
   background-color: #0F0;
 }
