@@ -22,7 +22,7 @@ body:after {
   position: fixed;
   left: 0;
   top: 0;
-  background: linear-gradient(#000700 50%, #777 50%);
+  background: linear-gradient(green 50%, black 50%);
   background-size: 100% 2px;
   background-repeat: repeat;
   opacity: 0.25;
@@ -63,7 +63,7 @@ body:after {
   text-shadow: 0 0 3px #0F0;
 }
 #background {
- background: radial-gradient(white, #000);
+ background: radial-gradient(purple, blue);
  scrollbar-color: transparent transparent;
  scrollbar-width: none;
 }
